@@ -176,7 +176,7 @@ const cutBox = (
 };
 
 const animation = () => {
-  const speed = 0.05;
+  const speed = 0.15; // Increased speed
   const topLayer = stack[stack.length - 1];
 
   topLayer.threejs.position[topLayer.direction] += speed;
